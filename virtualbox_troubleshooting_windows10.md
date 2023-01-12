@@ -10,4 +10,6 @@ DISM /Online /Disable-Feature:Microsoft-Hyper-V
 ```
 
 ## Configure VM to enable nested virtualization
+```
 VBoxManage modifyvm <vmname> --nested-hw-virt on
+```
